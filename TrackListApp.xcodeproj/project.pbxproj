@@ -9,21 +9,31 @@
 /* Begin PBXBuildFile section */
 		5F640FC627EA341700347037 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F640FC527EA341700347037 /* AppDelegate.swift */; };
 		5F640FC827EA341700347037 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F640FC727EA341700347037 /* SceneDelegate.swift */; };
-		5F640FCA27EA341700347037 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F640FC927EA341700347037 /* ViewController.swift */; };
 		5F640FCD27EA341700347037 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F640FCB27EA341700347037 /* Main.storyboard */; };
 		5F640FCF27EA341A00347037 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F640FCE27EA341A00347037 /* Assets.xcassets */; };
 		5F640FD227EA341A00347037 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F640FD027EA341A00347037 /* LaunchScreen.storyboard */; };
+		5F640FDA27EA3BD100347037 /* ContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F640FD927EA3BD100347037 /* ContactViewController.swift */; };
+		5F640FDE27EB17E800347037 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F640FDD27EB17E800347037 /* DataManager.swift */; };
+		5F640FE027EB18D800347037 /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F640FDF27EB18D800347037 /* Contact.swift */; };
+		5F640FE227EB2B1700347037 /* ContactDetalisViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F640FE127EB2B1700347037 /* ContactDetalisViewController.swift */; };
+		5FEBC25B27EB4BDD00481958 /* GroupContactInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FEBC25A27EB4BDD00481958 /* GroupContactInfoViewController.swift */; };
+		5FEBC25D27EB868300481958 /* MainTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FEBC25C27EB868300481958 /* MainTabBarViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		5F640FC227EA341700347037 /* TrackListApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrackListApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F640FC527EA341700347037 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5F640FC727EA341700347037 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		5F640FC927EA341700347037 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		5F640FCC27EA341700347037 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5F640FCE27EA341A00347037 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5F640FD127EA341A00347037 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5F640FD327EA341A00347037 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5F640FD927EA3BD100347037 /* ContactViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactViewController.swift; sourceTree = "<group>"; };
+		5F640FDD27EB17E800347037 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		5F640FDF27EB18D800347037 /* Contact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contact.swift; sourceTree = "<group>"; };
+		5F640FE127EB2B1700347037 /* ContactDetalisViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactDetalisViewController.swift; sourceTree = "<group>"; };
+		5FEBC25A27EB4BDD00481958 /* GroupContactInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupContactInfoViewController.swift; sourceTree = "<group>"; };
+		5FEBC25C27EB868300481958 /* MainTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +68,12 @@
 			children = (
 				5F640FC527EA341700347037 /* AppDelegate.swift */,
 				5F640FC727EA341700347037 /* SceneDelegate.swift */,
-				5F640FC927EA341700347037 /* ViewController.swift */,
+				5F640FD927EA3BD100347037 /* ContactViewController.swift */,
+				5F640FE127EB2B1700347037 /* ContactDetalisViewController.swift */,
+				5FEBC25C27EB868300481958 /* MainTabBarViewController.swift */,
+				5FEBC25A27EB4BDD00481958 /* GroupContactInfoViewController.swift */,
+				5F640FDF27EB18D800347037 /* Contact.swift */,
+				5F640FDD27EB17E800347037 /* DataManager.swift */,
 				5F640FCB27EA341700347037 /* Main.storyboard */,
 				5F640FCE27EA341A00347037 /* Assets.xcassets */,
 				5F640FD027EA341A00347037 /* LaunchScreen.storyboard */,
@@ -138,9 +153,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5F640FCA27EA341700347037 /* ViewController.swift in Sources */,
+				5F640FE227EB2B1700347037 /* ContactDetalisViewController.swift in Sources */,
+				5FEBC25D27EB868300481958 /* MainTabBarViewController.swift in Sources */,
+				5FEBC25B27EB4BDD00481958 /* GroupContactInfoViewController.swift in Sources */,
+				5F640FDE27EB17E800347037 /* DataManager.swift in Sources */,
 				5F640FC627EA341700347037 /* AppDelegate.swift in Sources */,
+				5F640FE027EB18D800347037 /* Contact.swift in Sources */,
 				5F640FC827EA341700347037 /* SceneDelegate.swift in Sources */,
+				5F640FDA27EA3BD100347037 /* ContactViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -306,7 +326,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -334,7 +354,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
