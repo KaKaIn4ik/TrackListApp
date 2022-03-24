@@ -18,9 +18,7 @@ class ContactDetalisViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        view.backgroundColor = UIColor.white
-        navigationItem.title = "Table"
-        navigationController?.navigationBar.prefersLargeTitles = true
+        
         
         phoneLabel.text = "Phone: \(persons.phone)"
         emailLabel.text = "Email: \(persons.email)"

@@ -15,11 +15,7 @@ class MainTabBarViewController: UITabBarController {
 
         
     }
-//    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-//        guard let tabBarController = segue.destination as? UITabBarController else { return }
-//        guard let viewControllers = tabBarController.viewControllers else {return }
-//
-//    }
+
 
     
     // MARK: - Navigation

@@ -43,7 +43,7 @@
                             <outlet property="delegate" destination="H6y-Ab-mkF" id="b31-dr-QOR"/>
                         </connections>
                     </tableView>
-                    <tabBarItem key="tabBarItem" title="Item" id="Ca8-ew-Vp9"/>
+                    <tabBarItem key="tabBarItem" systemItem="search" id="Ca8-ew-Vp9"/>
                     <navigationItem key="navigationItem" title="Persons List" id="0zc-qa-o38"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="kaC-wJ-DtH" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -94,7 +94,7 @@
             </objects>
             <point key="canvasLocation" x="397" y="741"/>
         </scene>
-        <!--Item-->
+        <!--Group Contact Info View Controller-->
         <scene sceneID="MKf-DL-BYl">
             <objects>
                 <tableViewController id="ppn-yg-VDZ" customClass="GroupContactInfoViewController" customModule="TrackListApp" customModuleProvider="target" sceneMemberID="viewController">
@@ -133,7 +133,7 @@
                             <outlet property="delegate" destination="ppn-yg-VDZ" id="PkO-uD-wxh"/>
                         </connections>
                     </tableView>
-                    <tabBarItem key="tabBarItem" title="Item" id="geE-h4-gd0"/>
+                    <tabBarItem key="tabBarItem" systemItem="contacts" id="geE-h4-gd0"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="WTg-4p-jcA" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -155,13 +155,14 @@
             </objects>
             <point key="canvasLocation" x="-551" y="-4"/>
         </scene>
-        <!--Tab Bar Controller-->
+        <!--Personal List-->
         <scene sceneID="qG1-dZ-L58">
             <objects>
                 <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="C5k-U4-8bP" sceneMemberID="viewController">
                     <toolbarItems/>
-                    <navigationItem key="navigationItem" id="csF-8p-UXE"/>
-                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionIndicatorImage="person.and.arrow.left.and.arrow.right" catalog="system" id="Ge1-0M-UUA">
+                    <navigationItem key="navigationItem" title="Personal List" id="csF-8p-UXE"/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Ge1-0M-UUA">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </tabBar>
@@ -176,7 +177,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="person.and.arrow.left.and.arrow.right" catalog="system" width="128" height="89"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>

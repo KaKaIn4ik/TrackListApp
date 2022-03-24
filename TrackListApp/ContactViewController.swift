@@ -12,9 +12,7 @@ class ContactViewController: UITableViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        view.backgroundColor = UIColor.white
-        navigationItem.title = "Persons List"
-        navigationController?.navigationBar.prefersLargeTitles = true
+        
 
     }
 

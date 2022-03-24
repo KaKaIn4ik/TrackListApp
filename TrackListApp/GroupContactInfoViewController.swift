@@ -12,12 +12,9 @@ class GroupContactInfoViewController: UITableViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        view.backgroundColor = UIColor.white
-        navigationItem.title = "Persons List"
-        navigationController?.navigationBar.prefersLargeTitles = true
         
-//        title.text = "Phone: \(persons.phone)"
-//        emailLabel.text = "Email: \(persons.email)"
+        
+
 
     }
 
