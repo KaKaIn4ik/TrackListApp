@@ -30,10 +30,10 @@ class ContactViewController: UITableViewController {
         var content = cell.defaultContentConfiguration()
         content.text = "\(contact.name)   \(contact.surname)"
         
-        
         cell.contentConfiguration = content
         
         return cell
+        
     }
     
 
